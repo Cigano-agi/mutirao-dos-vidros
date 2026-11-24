@@ -1,0 +1,18 @@
+name = "mutirao-dos-vidros"
+main = "worker.mjs"
+compatibility_date = "2026-11-23"
+workers_dev = false
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = true
+
+[vars]
+CIDADE = "Cidade Exemplo"
+CENTRO = "-30.0375,-51.2140"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mutirao-exemplo"
+database_id = "YOUR_D1_DATABASE_ID"
